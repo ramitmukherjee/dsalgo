@@ -7,7 +7,7 @@ public class TowerOfHanoi {
 
     public static void main(String[] args) {
         int n = 4;
-        List<String> steps = new LinkedList<String>();
+        List<String> steps = new LinkedList<>();
         TowerOfHanoi.hanoi(n, "S", "E", "A", steps);
 
         steps.forEach(System.out::println);
